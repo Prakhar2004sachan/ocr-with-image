@@ -1,0 +1,7 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+# FastAPI uses File(...) in signatures, and engine cleanup/probe errors are
+# intentionally swallowed so a dead engine never crashes the API.
+ignore = ["B008", "BLE001", "S110", "EXE001"]

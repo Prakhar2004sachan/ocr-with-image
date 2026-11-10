@@ -1,0 +1,67 @@
+# Model checkpoints & weights (large binary files downloaded on-demand)
+models/gguf/
+models/uocr2/
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+
+# Runtime data, uploads, rendered pages, sqlite db, outputs, and logs
+data/
+.run/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Python virtual environment & bytecode
+.venv/
+*/.venv/
+venv/
+*/venv/
+ENV/
+env/
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Node & Frontend build artifacts
+node_modules/
+*/node_modules/
+dist/
+*/dist/
+.pnpm-store/
+.npm/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS & Editor files
+.DS_Store
+*/.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.perch/
+
+# Test & E2E artifacts
+.ruff_cache/
+.pytest_cache/
+.e2e-data*/
+.qa-page1.png
+frontend/test-results/
+frontend/playwright-report/
+frontend/.playwright-browsers/
+frontend/blob-report/
+playwright-report/
+test-results/
